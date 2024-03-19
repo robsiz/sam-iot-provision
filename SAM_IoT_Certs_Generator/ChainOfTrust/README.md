@@ -9,8 +9,8 @@ If this folder does not contain any Chain of Trust files, then the provisioning 
 
 The following file names for each type of Chain-of-Trust component must be used in order for the provisioning scripts to properly recognize the purpose of each file:
 
-- Root Certificate = `root-ca.crt`
+- Root Certificate = `root-ca.pem`
 - Root Key = `root-ca.key`
-- Signer Certificate = `signer-ca.crt`
+- Signer Certificate = `signer-ca.pem`
 - Signer Certificate Signing Request (CSR) = `signer-ca.csr`
 - Signer Key = `signer-ca.key`
